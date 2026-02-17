@@ -1,0 +1,32 @@
+# Datasets (hosted on HuggingFace)
+datasets/
+
+# Results (activations, probing, prompting all live here)
+results/
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+
+# Environment
+.venv/
+.env
+
+# uv
+uv.lock
+
+# Logs
+logs/
+
+# Tests
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
