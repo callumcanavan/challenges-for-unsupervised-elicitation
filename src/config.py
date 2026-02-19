@@ -301,6 +301,7 @@ DATASET_CONFIGS: dict[str, DatasetConfig] = {
         default_model="meta-llama/Llama-3.1-70B",
         train_file="train_political_normative.json",
         test_file="test_political_normative.json",
+        field_mapping={"is_liberal": "label"},
     ),
 }
 

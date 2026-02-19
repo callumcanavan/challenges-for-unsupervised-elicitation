@@ -25,7 +25,7 @@ SUBSETS = {
         lambda item: {
             "question": item["question"],
             "choice": item["choice"],
-            "label": item["political_leaning"] == "liberal",
+            "is_liberal": item["political_leaning"] == "liberal",
         },
     ),
     "larger_than": ("larger_than", None),
