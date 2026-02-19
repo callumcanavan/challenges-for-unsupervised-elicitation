@@ -237,7 +237,7 @@ def sample_few_shot_examples(
             for x in (true_items + false_items)
             if x not in true_selected
             and x not in false_selected
-            and _is_eligible(x, used_questions, used_cids)
+            and _is_eligible(x, used_questions)
         ]
         extra = remaining[:deficit]
         cross_class_borrowed = len(extra)

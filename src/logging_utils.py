@@ -37,7 +37,12 @@ def get_logger(name: str, log_file: str | Path | None = None) -> logging.Logger:
 
 
 def add_file_handler(logger: logging.Logger, log_file: str | Path) -> None:
-    """Add a file handler to an existing logger."""
+    """Add a file handler to an existing logger, replacing any existing one."""
+    # Remove previous file handlers to avoid log leaking across sweep runs
+    for h in logger.handlers[:]:
+        if isinstance(h, logging.FileHandler):
+            h.close()
+            logger.removeHandler(h)
     path = Path(log_file)
     path.parent.mkdir(parents=True, exist_ok=True)
     handler = logging.FileHandler(path)
