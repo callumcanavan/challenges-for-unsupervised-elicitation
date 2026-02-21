@@ -95,7 +95,7 @@ python experiments/prompting_sweep.py [options]
 
 **Prompting**: zero-shot, random few-shot, bootstrapped few-shot, golden few-shot (ceiling)
 
-**Probing**: random probe, CCS, PCA, E2H, supervised (ceiling), UE+E2H (UEEH)
+**Probing**: random probe, CCS, PCA, E2H, supervised (ceiling), UE+E2H
 
 **Ensembles**: consensus-weighted random/PCA ensembles, E2H-weighted random/PCA ensembles
 
