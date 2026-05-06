@@ -1,6 +1,3 @@
-# Datasets (hosted on HuggingFace)
-datasets/
-
 # Results (activations, probing, prompting all live here)
 results/
 
