@@ -30,10 +30,10 @@ Hosted on HuggingFace at callum-canavan/challenges-for-unsupervised-elicitation.
 
 | Dataset | Challenge | Description |
 |---------|-----------|-------------|
-| **GSM8K** | Imbalanced training sets | Derived from [GSM8K](https://arxiv.org/abs/2110.14168) (Cobbe et al., 2021) using candidate LLM solutions from [Wen et al. (2025)](https://arxiv.org/abs/2410.09700). Each question is paired with one correct and one incorrect solution, with varying train set class balance. |
-| **Ctrl-Z** | Imbalanced training sets | Sequences of bash commands labeled safe/malicious, derived from [Bhatt et al. (2025)](https://arxiv.org/abs/2412.09084), with varying train set class balance. |
-| **GSM-Political** | Impossible tasks | Mix of GSM8K problems and normative political statements from [Political Ideologies](https://huggingface.co/datasets/JyotiNayak/political_ideologies) (Nayak et al.) — methods should be confident on math but uncertain on normative statements. |
-| **Larger Than** | (Easy dataset for E2H) | Simple number comparison statements from [Marks & Tegmark (2023)](https://arxiv.org/abs/2310.06824) with added question fields. Used as the easy task for E2H probes. |
+| **GSM8K** | Imbalanced training sets | Derived from GSM8K (Cobbe et al., 2021) using candidate LLM solutions from Wen et al. (2025). Each question is paired with one correct and one incorrect solution, with varying train set class balance. |
+| **Ctrl-Z** | Imbalanced training sets | Sequences of bash commands labeled safe/malicious, derived from Bhatt et al. (2025), with varying train set class balance. |
+| **GSM-Political** | Impossible tasks | Mix of GSM8K problems and normative political statements from Political Ideologies (Nayak et al.) — methods should be confident on math but uncertain on normative statements. |
+| **Larger Than** | (Easy dataset for E2H) | Simple number comparison statements from Marks & Tegmark (2023) with added question fields. Used as the easy task for E2H probes. |
 
 ## Running experiments
 
