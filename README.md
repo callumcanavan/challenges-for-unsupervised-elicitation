@@ -2,7 +2,7 @@
 
 Data: https://huggingface.co/datasets/callum-canavan/challenges-for-unsupervised-elicitation
 
-Code for *Three Concrete Challenges and Two Hopes for the Safety of Unsupervised Elicitation*[link]—specifically for running unsupervised elicitation (UE) and easy-to-hard generalization (E2H) methods on datasets with imbalanced training sets and impossible tasks, including ensembling and combining UE and E2H techniques described in the paper.
+Code for *Three Concrete Challenges and Two Hopes for the Safety of Unsupervised Elicitation*—--specifically for running unsupervised elicitation (UE) and easy-to-hard generalization (E2H) methods on datasets with imbalanced training sets and impossible tasks, including ensembling and combining UE and E2H techniques described in the paper.
 
 ## Setup
 
@@ -17,7 +17,7 @@ uv sync
 python scripts/download_datasets.py
 ```
 
-`scripts/download_datasets.py` downloads from [callum-canavan/challenges-for-unsupervised-elicitation](https://huggingface.co/datasets/callum-canavan/challenges-for-unsupervised-elicitation) on HuggingFace and converts them to the format expected by the code.
+`scripts/download_datasets.py` downloads from callum-canavan/challenges-for-unsupervised-elicitation on HuggingFace and converts them to the format expected by the code.
 
 For prompting experiments, also install vLLM:
 ```bash
