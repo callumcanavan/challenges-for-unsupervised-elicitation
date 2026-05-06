@@ -26,7 +26,7 @@ uv sync --extra vllm
 
 ## Datasets
 
-Hosted on HuggingFace at [callum-canavan/challenges-for-unsupervised-elicitation](https://huggingface.co/datasets/callum-canavan/challenges-for-unsupervised-elicitation). See the paper for full details on dataset derivations.
+Hosted on HuggingFace at callum-canavan/challenges-for-unsupervised-elicitation. See the paper for full details on dataset derivations.
 
 | Dataset | Challenge | Description |
 |---------|-----------|-------------|
