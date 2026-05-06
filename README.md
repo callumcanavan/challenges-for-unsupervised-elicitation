@@ -1,7 +1,5 @@
 # Challenges for Unsupervised Elicitation
 
-Data: https://huggingface.co/datasets/callum-canavan/challenges-for-unsupervised-elicitation
-
 Code for *Three Concrete Challenges and Two Hopes for the Safety of Unsupervised Elicitation*—specifically for running unsupervised elicitation (UE) and easy-to-hard generalization (E2H) methods on datasets with imbalanced training sets and impossible tasks, including ensembling and combining UE and E2H techniques described in the paper.
 
 ## Setup
@@ -12,12 +10,9 @@ git clone https://github.com/callumcanavan/challenges-for-unsupervised-elicitati
 cd challenges-for-unsupervised-elicitation
 pip install uv
 uv sync
-
-# Download datasets from HuggingFace
-python scripts/download_datasets.py
 ```
 
-`scripts/download_datasets.py` downloads from callum-canavan/challenges-for-unsupervised-elicitation on HuggingFace and converts them to the format expected by the code.
+`scripts/download_datasets.py` downloads from callum-canavan/challenges-for-unsupervised-elicitation on HuggingFace and converts them to the format expected by the code (NOTE: no longer necessary, data already in expected format in `datasets/`).
 
 For prompting experiments, also install vLLM:
 ```bash
@@ -26,7 +21,7 @@ uv sync --extra vllm
 
 ## Datasets
 
-Hosted on HuggingFace at callum-canavan/challenges-for-unsupervised-elicitation. See the paper for full details on dataset derivations.
+Can be found in `datasets/`. Also hosted on HuggingFace at callum-canavan/challenges-for-unsupervised-elicitation. See the paper for full details on dataset derivations.
 
 | Dataset | Challenge | Description |
 |---------|-----------|-------------|
